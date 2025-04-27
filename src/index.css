@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* rgba(217, 4, 41) #D90429 */
+/* rgba(239, 35, 60) #EF233C*/
+/* rgba(237, 242, 244) #EDF2F4*/
+
+/* rgba(5, 12, 156) #050C9C */
+/* rgba(58, 190, 249) #3ABEF9*/
+/* rgba(167, 230, 255) #a7e6ff*/
+
+/* rgba(0, 60, 67) */
+/* rgba(227, 254, 247)*/
+:root {
+  --main-color-primary: 217, 4, 41;
+  --main-color-primaryTint: 239, 35, 60;
+}
+
+nav a.active {
+  color: #1f2937;
+  font-weight: 500;
+}
+
+@keyframes scrollLeft {
+  to {
+    left: -200px; /* Pastikan value ini sama dgn item yg di animate */
+  }
+}
+@keyframes scrollRight {
+  to {
+    right: -200px; /* Pastikan value ini sama dgn item yg di animate */
+  }
+}
+
+.maskGradient {
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 0)
+  );
+}
+
+/* bg-[linear-gradient(to_bottom,rgba(252,4,80,0.4),rgba(244,162,11,0.4))] */
+.bGLinearGradient {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(var(--main-color-primary), 0.4),
+    rgba(var(--main-color-primaryTint), 0.4)
+  );
+}
+
+/* bg-[linear-gradient(to_right_bottom,rgba(252,4,80,0.7),rgba(244,162,11,0.7)),url('/public/images/kaaba.jpg')] */
+.bgLinearAndImage {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(var(--main-color-primary), 0.4),
+    rgba(var(--main-color-primaryTint), 0.4),
+    url("/public/images/kaaba.jpg")
+  );
+}
+
+.bGLinearGradientNav {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(var(--main-color-primary), 0.8),
+    rgba(var(--main-color-primaryTint), 0.8)
+  );
+}
+
+.bGLinearGradientNav:hover {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(var(--main-color-primary), 1),
+    rgba(var(--main-color-primaryTint), 1)
+  );
+}
+
+.bGLinearGradientFooter {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(var(--main-color-primaryTint), 0.8),
+    rgba(var(--main-color-primary), 0.8)
+  );
+}
+
+/* bg-gradient-to-t from-primary to-primary */
+
+/* bg-gradient-to-b from-secondary to-primary */
+
+/* bg-[linear-gradient(to_bottom,rgba(252,4,80,0.6),rgba(244,162,11,0.6))] */
+
+/* bg-[linear-gradient(to_bottom,rgba(0,0,0,0.7),rgba(0,0,0,0.7))] */
+
+/* bg-gradient-to-tl from-secondary from-5% to-primary to-95% */
+
+/* grid grid-cols-[repeat(auto-fit,minmax(6rem,7rem))] */
+/* grid grid-cols-[repeat(auto-fit,minmax(6rem,min-content))] */
+/* grid grid-cols-[repeat(auto-fit,minmax(6rem,1fr))] */
+.fontMonoAbe {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", "Glory", "sans-serif", monospace;
+}
+.textShadowAbe {
+  /* text-shadow: -1px 1px 0 #000, 1px 1px 0 transparent, 1px -1px 0 transparent,
+    -1px -1px 0 transparent; */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+.my-masonry-grid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  /* margin-left: -30px; gutter size offset */
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-right: 2px;
+  padding-left: 2px;
+  background-clip: padding-box;
+}
+
+/* Style your items */
+.my-masonry-grid_column > div {
+  /* change div to reference your elements you put in <Masonry> */
+  /* background: grey; */
+  margin-bottom: 5px;
+}
+
+iconify-icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+}

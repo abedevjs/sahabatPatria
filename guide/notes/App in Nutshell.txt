@@ -1,0 +1,58 @@
+1. USER STORIES -> As a [type of user], I want [an action], so that [a benefit]
+	- Sebagai calon jamaah, sy mau cek kredibilitas travel ini, karena bnyak penipuan (sertakan afiliasi/berita/sertifikasi/gallery)
+	- Sebagai calon jamaah, sy mau tau servis apa yg sy dapat, krn uang paket yg besar 30jt-an (highlight perlengkapan, souvenir(jika ada), highlight list tempat ziarah, fasilitas hotel, fasilitas pesawat, muthawwif berpengalaman)
+	- Sebagai calon jamaah, sy mau tau servis apa yg pernah diberikan oleh travel ke jamaah lain, krn sy bs bandingkan atau bayangkan servis yg sm akan sy dapat (gallery foto/video jamaah, testimonial jamaah, screenshot google review dll)
+	- Sebagai anak/klrg calon jamaah yg sdh lansia, sy mau tau apakah org tua sy di servis dgn baik selama di tanah suci baik dr segi kebutuhan fisik maupun spiritual, krn sy khawatir perjalanan jauh dll. (highlight servis jamaah lansia di berupa foto di header website)
+	- Saya mau tau detail paket nya (bedah/highlight isi paket (brp hari, pesawat (link ke fasilitas pesawat), hotel (link ke fasilitas hotel, perlengkapan (link ke perlengkapan detail), ziarah (link ke highlight tempat ziarah), muthawwif (link ke tim muthawwif/our team), souvenir (link ke souvenir: zam2, kurma dll))))
+
+2. WEBPAGE MENTAL GUIDELINES (Based on Market Review.txt)
+	- "Situs religi yang profesional dan syahdu"
+	- "The website screams: HOSPITALITY, SERVICE, CARING, PROFESSIONAL, INTIMATE, FAMILY"
+	- Clarity over cleverness
+	- Personality: Calm/Peaceful (Main attitude), Professional (Second attitude)
+
+3. FEATURES/PAGES/LINK/SECTION (Based on point 1) -> What your app is all about, what we can do in it?
+	- Navbar (Top) -> Home, Tentang Kami, Paket (Umrah, Haji, Umrah/Haji Plus), Fasilitas (Hotel, Pesawat, Perlengkapan, Ziarah, Muthawwif), Gallery ✅ ❗Navbar is unable to be clicked in Gallery Page
+	- Header -> done ✅
+	- Statistik (6 tahun, 1200 jamaah, 35 destinasi 5 negara)  -> done ✅
+	- Gallery (image + video) -> Link to Gallery -> Endless Scroll + grid masonry (image + video (using Tailwind Material Masonry Grid Galery - React component)) (when hover it zooms out and play video/preview photo (using Tailwind Material Dialog component)) -> done ✅
+	- Testimonial -> Classical slider (using Tailwind Material Card component) -> done ✅
+	- Berita (jika ada)
+	- Our partnership Icons -> Classical icon grayed rows -> done ✅
+	- List pesawat -> Link to Pesawat -> Tab with detail preview (kursi, entertainment, lounge?) -> done ✅
+	- List hotel -> Link to Hotel -> Tab with detail preview (tempat tidur, makanan, depan hotel/lobby,dll) -> done ✅
+	- Detail perlengkapan dan souvenir -> Link to Perlengkapan -> F Pattern -> done ✅
+	- List tempat ziarah -> Link to Ziarah -> Z Pattern / Tab -> done ✅
+	- Our team (muthawwif, tour leader) -> Link to Muthawwif -> Grid Image + profil -> done ✅
+	- Our paket di home hnya preview card seperti card natours -> Link to Paket -> Card with details / Table? -> done ✅
+	- About us -> Link to Tentang Kami -> Sejarah perush, timeline, profil owner dantim perush -> Z-Pattern / Timeline?
+	- Sertfikasi (jika ada)
+	- FAQ -> Accordion Component (using Tailwind Material Accordion component)
+	- CTA whatsapp icon, ig icon
+	- Footer -> done ✅
+
+4. WEBPAGE TECHNICAL GUIDELINES (Complementing point 2 and 3)
+	- Layout: Normal, blocks, little text, 
+	- Fonts: Glory
+	- Color: Red
+	- Icons: Iconify
+	- Text:
+	- Visual Data (Graph, Charts):
+	- Image: Lot of alive caring, religious, service, status images
+	- Video:
+	- Shadow:
+	- Rounded: SMALL. Ref: Zero (B2B, Serious, Professional), Small (Calm and Professional), Medium (Less profesional, chill, relax), Large-XL (playful, fun)
+	- Animation:
+	-
+
+//THIS IS FOR WEB APPLICATION
+3. FLOWCHART -> What to do. Diagram of what next to do after an event (workflow). Focus on User Event (click, load, search, submit, type, scroll dll)
+	- User klik BELI atau JUAL > display form
+	- JUAL > tujuan, tgl, jmlh bagasi yg dijual, harga, preferensi, deadline terima bagasi > JUAL
+	- BELI > tujuan, tgl : result > bagasi avail, harga, preferensi, deadline terima bagasi > BELI : tf uang > Sukses > alamat, kontak, deadline, preferensi
+	- Notify pembawa > Sisa bagasi, uang yg diterima, data penitip
+	- Bagasi berhasil dikirim > tf ke pembawa/app
+
+
+4. ARCHITECTURE -> How to do it. Detail diagram of the machine
+	- Contoh: We use Class. Inside class theres property, methode etc. Click event will  trigger certain function, as a result will render certain UI etc

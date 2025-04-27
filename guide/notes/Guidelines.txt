@@ -1,0 +1,104 @@
+*Goals
+	Business goals: jual paket umrah dan kurma (contact us wa)
+	User goals: Finding INFORMATION about: kredibilitas, servis, pengalaman handle jamaah / travel,
+	Does not need 'How it works' feature
+	Clarity over cleverness
+	"Situs religi yang profesional dan syahdu"
+	"The website screams: HOSPITALITY, SERVICE, CARING, PROFESSIONAL, INTIMATE, FAMILY"
+
+*Audience
+	b2c
+	Above 35 years old.
+	Woman
+	Looking for experience
+	Looking for credibility
+	Looking for professionality
+	I wanted to be well taken care of
+	I want to trust this travel and feel safe
+	Does not really care about high tech
+
+*Personality (combined)
+	Calm/Peaceful (Main attitude)
+	Professional (Second attitude)
+
+=============== LAYOUT ===============
+	Normal, blocks, little text, alive images
+
+=============== COLOR ===============
+
+*Color Palette
+	Main: light oranges, yellows
+	Accent: Green
+	Grey: Blue donker Shaff
+	Use Gradient (Oranges) (Blue donker)
+
+=============== TYPOGRAPHY ===============4160 3120
+
+*Break up long text with sub-headings, images, block quotes, bullet points, etc	
+
+*Font-style
+	Serif (Merriweather, Aleo, Playfair Display, Cormorant, Cardo, Lora, Biz)
+	Title: Aleo
+	Paragraph: Merriweather
+
+*Fonts-size
+	16px to 32px
+
+*Font-weight
+	Dont make text too light.
+	Use a tool to check contrast between text and background colors
+	Normal text: at least 4.5:1
+	Large text: at least 3:1(18px+)
+
+*Line-height (the smaller/longer text = the larger line height)
+	Big text/Title: Below 1.5
+	Normal text/paragraph: 1.5 - 2
+
+*Letter-space
+	Big text/Title: Narrow (Ex: -3px)
+	Normal text/paragraph: Large (Above 0px)
+
+*Justify-content
+	Usually, dont justify text
+	Dont center long text blocks. Small blocks are fine
+	
+=============== ICONS ===============
+	Icons are quite frequent
+
+=============== SHADOWS ===============
+	less shadows, but might be used sparingly
+
+=============== ROUND CORNER ===============
+	medium rounds
+
+=============== IMAGE ===============
+
+1. Alive
+2. Images possibly with main color as backgrounds
+3. Frequent images
+4. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
