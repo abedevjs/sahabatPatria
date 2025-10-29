@@ -10,17 +10,18 @@ export const dataIdentity = {
   // youtubeLink: "",
   // contactNumber: "0831-3825-6440",
 
-  travelName: "Anindo Amanah",
-  companyName: "PT. Anindo Amanah Travel",
-  copyrightName: "Anindo Media & Travel",
-  location: "Makassar",
-  googleMapLink: "",
+  travelName: "Patria Wisata",
+  companyName: "PT. Saudi Patria Wisata",
+  copyrightName: "Patria Wisata",
+  location: "Bekasi",
+  googleMapLink: "https://maps.app.goo.gl/Wma9Lt6NQnXDWJNC8",
   whatsappLink:
-    "https://api.whatsapp.com/send/?phone=6283138256440&text=Assalaamu+alaikum+Travel+Anindo&type=phone_number&app_absent=0",
-  facebookLink: "",
-  instagramLink: "",
-  youtubeLink: "",
-  contactNumber: "0831-3825-6440",
+    "https://api.whatsapp.com/send/?phone=6285185216545&text=Assalaamu+alaikum+Sahabat+Patria&type=phone_number&app_absent=0",
+  facebookLink: "https://www.facebook.com/profile.php?id=61575830608156",
+  instagramLink:
+    "https://www.instagram.com/patriawisata?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+  youtubeLink: "https://www.youtube.com/",
+  contactNumber: "0851-9147-0957",
 };
 
 export const dataHistory = [
@@ -68,46 +69,46 @@ export const dataHistory = [
 
 export const dataStaff = [
   {
-    name: "KH. Muhammad Ashal, Lc",
+    name: "H. Muhammad Alief Surur",
     image: "/images/staff/a.jpeg",
-    status: "Direktur Utama",
+    status: "Komisaris Utama",
   },
   {
-    name: "DR. Aminah Sa'id, Lc",
+    name: "H. Faisal Ibrahim Surur",
     image: "/images/staff/b.jpeg",
-    status: "Bendahara",
+    status: "Direktur",
   },
   {
-    name: "Yusuf Burake, S.Ag",
+    name: "Dina Patriana Azis, SH",
     image: "/images/staff/c.jpeg",
-    status: "Sekretaris",
+    status: "Bendahara",
   },
 ];
 
 export const dataKantor = [
   {
-    name: "Makassar",
+    name: "Lampung",
     image: "/images/makassar.jpg",
     status: "pusat",
     linkGoogleMap: "google.com",
     linkWhatsApp: "whatsapp.com",
   },
   {
-    name: "Jeneponto",
+    name: "Bekasi",
     image: "/images/jeneponto.png",
     status: "cabang",
     linkGoogleMap: "google.com",
     linkWhatsApp: "whatsapp.com",
   },
   {
-    name: "Barru",
+    name: "Makassar",
     image: "/images/barru.jpg",
     status: "cabang",
     linkGoogleMap: "google.com",
     linkWhatsApp: "whatsapp.com",
   },
   {
-    name: "Jakarta",
+    name: "Kendari",
     image: "/images/jakarta.jpg",
     status: "cabang",
     linkGoogleMap: "google.com",

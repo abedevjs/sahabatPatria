@@ -1,5 +1,5 @@
 function Logo() {
-  return <img src="images/anindoPutih.png" alt="" className="h-12 w-12" />;
+  return <img src="images/patriaWhite.png" alt="" className="h-auto w-32" />;
   // return (
   //   <div className="h-12 w-12">
   //     <svg

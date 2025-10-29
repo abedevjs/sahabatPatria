@@ -1,9 +1,9 @@
 const dataMilestone = {
-  umur: 6,
-  jamaah: 1200,
+  umur: 20,
+  jamaah: 4230,
   rating: 4.8,
-  destinasi: 35,
-  negara: 8,
+  destinasi: 9,
+  negara: 4,
 };
 
 export default dataMilestone;

@@ -10,11 +10,15 @@
 /* rgba(58, 190, 249) #3ABEF9*/
 /* rgba(167, 230, 255) #a7e6ff*/
 
+/* PATRIA */
+/* rgb(16, 55, 131)  #103783*/
+/* rgb(37, 101, 228) #2565E4*/
+
 /* rgba(0, 60, 67) */
 /* rgba(227, 254, 247)*/
 :root {
-  --main-color-primary: 217, 4, 41;
-  --main-color-primaryTint: 239, 35, 60;
+  --main-color-primary: 4, 75, 146;
+  --main-color-primaryTint: 37, 101, 228;
 }
 
 nav a.active {
@@ -65,24 +69,24 @@ nav a.active {
 .bGLinearGradientNav {
   background-image: linear-gradient(
     to bottom,
-    rgba(var(--main-color-primary), 0.8),
-    rgba(var(--main-color-primaryTint), 0.8)
+    rgba(var(--main-color-primary), 1),
+    rgba(var(--main-color-primaryTint), 1)
   );
 }
 
 .bGLinearGradientNav:hover {
   background-image: linear-gradient(
     to bottom,
-    rgba(var(--main-color-primary), 1),
-    rgba(var(--main-color-primaryTint), 1)
+    rgba(var(--main-color-primary), 0.8),
+    rgba(var(--main-color-primaryTint), 0.8)
   );
 }
 
 .bGLinearGradientFooter {
   background-image: linear-gradient(
     to bottom,
-    rgba(var(--main-color-primaryTint), 0.8),
-    rgba(var(--main-color-primary), 0.8)
+    rgba(var(--main-color-primaryTint), 1),
+    rgba(var(--main-color-primary), 1)
   );
 }
 

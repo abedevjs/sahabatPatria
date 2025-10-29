@@ -22,7 +22,7 @@ const menuLinks = [
         name: "Healing",
         link: "/umrah",
         icon: "fa-solid:mosque",
-        description: "Umrah premium berulang kali",
+        description: "Sekali umrah, berkah",
       },
       {
         name: "Honeymoon",
@@ -34,7 +34,7 @@ const menuLinks = [
         name: "Haji",
         link: "/haji",
         icon: "fa6-solid:kaaba",
-        description: "Haji VIP tanpa antri",
+        description: "Sekali berhaji, bernilai",
       },
     ],
   },

@@ -15,7 +15,7 @@ function PaketHajiPage() {
     : `grid-cols-[repeat(auto-fit,minmax(20rem,max-content))] `;
   return (
     <div>
-      <TitleDivider title={"Pilih Paket Haji Anda"} />
+      <TitleDivider title={"Sekali berhaji, bernilai"} />
       <div
         className={` w-[95dvw] mb-8 mx-auto grid ${gridColsSetting} justify-items-center justify-center gap-8`}
       >

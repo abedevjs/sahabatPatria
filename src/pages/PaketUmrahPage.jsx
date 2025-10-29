@@ -11,7 +11,7 @@ function PaketUmrahPage() {
 
   return (
     <div>
-      <TitleDivider title={"Pilih Paket Healing Anda"} />
+      <TitleDivider title={"Sekali umrah, berkah"} />
       <div
         className={` w-[95dvw] mb-8 mx-auto grid ${gridColsSetting} justify-items-center justify-center gap-8`}
       >
